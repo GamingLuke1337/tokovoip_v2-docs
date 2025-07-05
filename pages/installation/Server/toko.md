@@ -1,4 +1,4 @@
-# Step 2: `tokovoip_script` Setup Guide
+# `tokovoip_script` Setup Guide
 
 1. **Download the script**
    Download the latest version of the `tokovoip_script` from the [GitHub Releases page](https://github.com/Plactrix/TokoVoIP_v2/releases/latest).
