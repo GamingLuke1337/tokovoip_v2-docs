@@ -8,10 +8,9 @@ To integrate TokoVoIP with `qb-hud` edit / add the following lines in your `qb-h
 
 https://github.com/GamingLuke1337/qb-hud
 
-> Note: May be outdated from [the official `qb-hud` repo]().
+> Note: May be outdated from [the official `qb-hud` repo](https://github.com/qbcore-framework/qb-hud).
 
 ---
-
 
 - Add this to your `config.lua`:
 ```lua
@@ -177,6 +176,7 @@ end)
 
 - With:
 ```lua
+            local radioChannel = 0
             if GetResourceState(Config.TokoResource) == "started" then
                 radioChannel = exports[Config.TokoResource]:getPlayerData(GetPlayerServerId(PlayerId()), "radio:channel") or 0
             else
