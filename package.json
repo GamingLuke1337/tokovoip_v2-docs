@@ -9,6 +9,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@types/react": "^19.1.8",
     "next": "^13.5.11",
     "nextra": "^2.13.4",
     "nextra-theme-docs": "latest",
