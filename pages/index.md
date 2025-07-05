@@ -1,9 +1,8 @@
-# Introduction to TokoVoIP V2
+# Introduction to TokoVoIP
 
-TokoVoIP V2 is a continuation of the original [TokoVoIP project by Itokoyamato](https://github.com/Itokoyamato/TokoVOIP_TS3).
-**Disclaimer:** I am not the original creator of the code. I am simply maintaining and improving it so that server owners can continue using it with modern FiveM setups.
+The current [TokoVoIP V2](https://github.com/Plactrix/TokoVoIP_v2) is a continuation by [Plactrix](https://github.com/Plactrix) of the original [TokoVoIP project by Itokoyamato](https://github.com/Itokoyamato/TokoVOIP_TS3).
 
-TokoVoIP is a FiveM voice plugin that leverages TeamSpeak to provide **high-quality**, **realistic** proximity-based voice communication. After observing high community demand, [Plactrix](https://github.com/Plactrix) decided to maintain and improve the original project, leading to the creation of **TokoVoIP V2**.
+TokoVoIP is a FiveM voice plugin that leverages TeamSpeak to provide high-quality, realistic proximity-based voice communication. [Plactrix](https://github.com/Plactrix) and [PinguinPocalypse](https://github.com/GamingLuke1337)decided to maintain and improve the original project.
 
 ---
 
@@ -61,15 +60,6 @@ If you find the plugin useful, consider supporting them:
 ---
 
 ### Common Issues
-
----
-
-## Framework Integration
-
-
-Or use the pre-integrated fork:
-
-> Note: May be outdated from the official `qb-hud` repo.
 
 ---
 

@@ -1,9 +1,8 @@
-import React from 'react';
-import { DocsThemeConfig } from 'nextra-theme-docs';
+import React from 'react'
 
-const basePath = '';
+const basePath = ''
 
-const config: DocsThemeConfig = {
+const config = {
   logo: (
     <>
       <img src={`${basePath}/tokovoip.png`} width="36" />
@@ -18,7 +17,7 @@ const config: DocsThemeConfig = {
   useNextSeoProps() {
     return {
       titleTemplate: '%s – TokoVoIP',
-    };
+    }
   },
   editLink: {
     component: () => <></>,
@@ -33,6 +32,6 @@ const config: DocsThemeConfig = {
   footer: {
     text: '© 2025 GamingLuke1337.',
   },
-};
+}
 
-export default config;
+export default config

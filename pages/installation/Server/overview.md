@@ -6,18 +6,19 @@ TokoVoIP uses **WebSockets** to bridge FiveM with TeamSpeak.
 
 Because FiveM blocks local WebSocket connections, you must use a remote WebSocket server (`ws-server`), even if it’s hosted on the same machine.
 
-### Overview
+## Overview
 
-#### Phase 1: Handshake
+### Phase 1: Handshake
 
 * `tokovoip_script` → `ws-server` → `master server` (register handshake)
 * `ts3-plugin` → `master server` (fetch handshake) → `ws-server`
 
 Once the handshake is complete, the master server is no longer used.
 
-#### Phase 2: Communication
+### Phase 2: Communication
 
 * `tokovoip_script` ↔ `ws-server` ↔ `ts3-plugin`
+
 
 ## What are the individual Parts doing?
 
@@ -52,4 +53,4 @@ Features include:
 **Installation and configuration** 
 The system is built using Node.js and relies on a correctly configured TeamSpeak environment.
 
-For compatibility and stability, `npm` is the recommended package manager. While Yarn, pnpm, or Bun are likely to work, they are not officially supported.
+For compatibility and stability, `npm` is the recommended package manager. While Yarn, pnpm, or Bun are going to work, we cannot assure official support for them.

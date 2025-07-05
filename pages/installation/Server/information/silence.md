@@ -1,6 +1,6 @@
-## TeamSpeak Silencing Issue
+# Issue: TeamSpeak Silencing everyone
 
-TeamSpeak channels will **silence users** once more than **100 clients** are connected. To fix this:
+TeamSpeak channels will silence users once more than **100** clients are connected. To fix this:
 
 1. Right-click your TeamSpeak server
 2. Click `Edit Virtual Server`

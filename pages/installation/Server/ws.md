@@ -1,10 +1,10 @@
-### Step 1: Setting Up the `ws-server`
+# `ws-server` Setup Guide
 
 The `ws-server` can be run in two different ways, depending on your setup requirements:
 
 ---
 
-#### Option 1: Run as a FiveM Resource
+## Option 1: Run as a FiveM Resource
 
 The `ws-server` can be hosted directly within your existing FiveM server or on a separate FiveM server. Both approaches are supported.
 
@@ -27,7 +27,7 @@ The `ws-server` can be hosted directly within your existing FiveM server or on a
 
 ---
 
-#### Option 2: Run as a Standalone Node.js Application
+## Option 2: Run as a Standalone Node.js Application
 
 The `ws-server` can also be run as an independent Node.js application. This is useful if you want to separate it from the FiveM runtime.
 

@@ -1,5 +1,6 @@
 {
   "silence": "TS silencing everyone",
   "onesync": "OneSync",
-  "notconnect": "TS3 plugin says not connected"
+  "notconnect": "TS3 plugin says not connected",
+  "wsnoyarn": "ws-server missing yarn"
 }
