@@ -11,5 +11,4 @@ export default {
   images: {
     unoptimized: true,
   },
-  // basePath: '/tokovoip_v2-docs',
 }
