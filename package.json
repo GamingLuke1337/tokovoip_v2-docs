@@ -10,7 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "@types/react": "^19.1.8",
-    "dompurify": "^3.2.6",
     "next": "^15.3.5",
     "nextra": "^2.13.4",
     "nextra-theme-docs": "^2.13.4",
