@@ -2,7 +2,7 @@
 #
 # To get started with Next.js see: https://nextjs.org/docs/getting-started
 #
-name: Deploy Cardinal Docs site to Pages
+name: Deploy TokoVoIP Docs site to Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -39,7 +39,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
           cache: 'pnpm'
       # - name: Restore cache
       #   uses: actions/cache@v4

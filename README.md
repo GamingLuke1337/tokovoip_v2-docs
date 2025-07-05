@@ -1,6 +1,6 @@
-# Cardinal Product Documentation
+# TokoVoiP_v2 Documentation
 
-https://docs.cardinalhq.io
+https://docs.chemnitzcityrp.de
 
 ## Local Development
 

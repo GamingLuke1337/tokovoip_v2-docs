@@ -1,6 +1,6 @@
 {
-  "name": "cardinal-docs",
-  "version": "0.0.1",
+  "name": "tokovoip_v2-docs",
+  "version": "0.0.2",
   "description": "Nextra docs template",
   "scripts": {
     "dev": "next dev",
