@@ -33,6 +33,7 @@ Adjust the resource name if you are using a different one.
 
 - With:
 ```lua
+            local talking = 0
             if GetResourceState(Config.TokoResource) == "started" then
                 talking = exports[Config.TokoResource]:getPlayerData(GetPlayerServerId(PlayerId()), "voip:talking") or 0
             else
