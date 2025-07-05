@@ -1,6 +1,6 @@
 # Building and Packaging the TS3 Plugin
 
-## Building the TS3 Plugin
+## 1. Building the TS3 Plugin
 
 To compile the TS3 plugin, ensure you have the following installed:
 
@@ -39,17 +39,10 @@ To compile the TS3 plugin, ensure you have the following installed:
 
 ---
 
-Here's a complete and professional guide for building the `.sln` (solution) file for the TokoVoIP TS3 plugin using **Visual Studio 2022**.
 
----
+## 2. Guide: Building the TS3 Plugin in Visual Studio 2022
 
-# Guide: Building the TS3 Plugin in Visual Studio 2022
-
-This guide explains how to configure and compile the TeamSpeak 3 plugin for TokoVoIP using **Visual Studio 2022**. It assumes you're working with the CMake-generated `.sln` file.
-
----
-
-## Prerequisites
+### Prerequisites
 
 Before building, make sure you have the following installed:
 
@@ -60,7 +53,6 @@ Before building, make sure you have the following installed:
   * **C++ CMake tools for Windows** (optional, recommended for troubleshooting)
 
 * **[Qt 5.12.7](https://download.qt.io/archive/qt/5.12/5.12.7/)**
-  Install both 32-bit and 64-bit MSVC 2019 versions.
 
 * **[CMake (latest stable)](https://cmake.org/download/)**
   Add CMake to your system PATH during installation.
