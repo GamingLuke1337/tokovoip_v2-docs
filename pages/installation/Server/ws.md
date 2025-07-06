@@ -1,10 +1,14 @@
 # `ws-server` Setup Guide
 
-The `ws-server` can be run in two different ways, depending on your setup requirements:
+The `ws-server` can be run in three different ways, depending on your setup requirements:
 
 ---
 
-## Option 1: Run as a FiveM Resource
+## Option 1: Use the integrated ws_server in the `tokovoip` resource
+
+The `tokovoip` resource includes an integrated `ws_server` that can be used without any additional setup. This is the simplest option and is recommended for most users.
+
+## Option 2: Run as a FiveM Resource
 
 The `ws-server` can be hosted directly within your existing FiveM server or on a separate FiveM server. Both approaches are supported.
 
@@ -16,15 +20,16 @@ The `ws-server` can be hosted directly within your existing FiveM server or on a
 
 3. **Configure the server**
    Open the configuration file: [`ws_server/config.js`](https://github.com/Plactrix/TokoVoIP_v2/blob/master/ws_server/config.js)
-   Set the `TSServer` value to the **IPv4 address** of your TeamSpeak server.
+   - Set the `TSServer` value to the **IPv4 address** of your TeamSpeak server.
+   - Set the `enableintegratews` to false. that deactivates the integrated `ws_server`
 
 4. **Start the server**
    Start the `ws_server` from your FiveM server console using the appropriate `start` command.
 
 5. **Save the WebSocket address**
    Once started, the console will display a message such as `Listening on IP:PORT`.
-   Copy this value and save it for use in [Step 2: Setting up the tokovoip\_script](#step-2-setting-up-tokovoip_script).
-
+   Copy this value and save it for use while Setting up the tokovoip script
+   
 ---
 
 ## Option 2: Run as a Standalone Node.js Application
@@ -37,8 +42,9 @@ The `ws-server` can also be run as an independent Node.js application. This is u
 2. **Configure the server**
    Open the configuration file: [`ws_server/config.js`](https://github.com/Plactrix/TokoVoIP_v2/blob/master/ws_server/config.js)
 
-   * Set the `TSServer` value to your TeamSpeak server's **IPv4 address**.
-   * If hosting on a separate machine, ensure the `ws-server` is accessible by the FiveM server.
+   - Set the `TSServer` value to the **IPv4 address** of your TeamSpeak server.
+   - Set the `enableintegratews` to false. that deactivates the integrated `ws_server`
+   - If hosting on a separate machine, ensure the `ws-server` is accessible by the FiveM server.
 
 3. **Install dependencies and start the server**
 

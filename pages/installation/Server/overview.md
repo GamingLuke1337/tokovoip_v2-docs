@@ -10,14 +10,14 @@ Because FiveM blocks local WebSocket connections, you must use a remote WebSocke
 
 ### Phase 1: Handshake
 
-* `tokovoip_script` → `ws-server` → `master server` (register handshake)
+* `tokovoip script` → `ws-server` → `master server` (register handshake)
 * `ts3-plugin` → `master server` (fetch handshake) → `ws-server`
 
 Once the handshake is complete, the master server is no longer used.
 
 ### Phase 2: Communication
 
-* `tokovoip_script` ↔ `ws-server` ↔ `ts3-plugin`
+* `tokovoip script` ↔ `ws-server` ↔ `ts3-plugin`
 
 
 ## What are the individual Parts doing?
@@ -30,7 +30,7 @@ A WebSocket server that bridges communication between the FiveM client script an
 * As a **standalone Node.js service**
 
 
-### 2. `tokovoip_script`
+### 2. `tokovoip script`
 
 The FiveM resource responsible for:
 

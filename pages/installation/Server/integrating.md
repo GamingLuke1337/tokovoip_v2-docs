@@ -14,7 +14,7 @@ https://github.com/GamingLuke1337/qb-hud
 
 - Add this to your `config.lua`:
 ```lua
-Config.TokoResource = "tokovoip_script"
+Config.TokoResource = "tokovoip"
 ```
 Adjust the resource name if you are using a different one.
 

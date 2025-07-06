@@ -21,8 +21,7 @@ To compile the TS3 plugin, ensure you have the following installed:
 3. **Build 32-bit version:**
 
    ```bash
-   mkdir build32
-   cd build32
+   mkdir build32 && cd build32
    cmake -G "Visual Studio 17 2022" -DCMAKE_PREFIX_PATH="C:/Qt/Qt5.12.7/5.12.7/msvc2017" ..
    cd ..
    ```
@@ -30,8 +29,7 @@ To compile the TS3 plugin, ensure you have the following installed:
 4. **Build 64-bit version:**
 
    ```bash
-   mkdir build64
-   cd build64
+   mkdir build64 && cd build64
    cmake -G "Visual Studio 17 2022" -DCMAKE_PREFIX_PATH="C:/Qt/Qt5.12.7/5.12.7/msvc2017_64" ..
    ```
 

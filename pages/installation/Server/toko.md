@@ -1,13 +1,13 @@
-# `tokovoip_script` Setup Guide
+# `tokovoip` resource Setup Guide
 
 1. **Download the script**
-   Download the latest version of the `tokovoip_script` from the [GitHub Releases page](https://github.com/Plactrix/TokoVoIP_v2/releases/latest).
+   Download the latest version of the `tokovoip` from the [GitHub Releases page](https://github.com/Plactrix/TokoVoIP_v2/releases/latest).
 
 2. **Extract the archive**
    Extract the contents into the `resources` folder of your FiveM server.
 
 3. **Edit the configuration**
-   Open the configuration file: [`tokovoip_script/config.lua`](https://github.com/Plactrix/TokoVoIP_v2/blob/master/fivem_script/tokovoip_script/config.lua)
+   Open the configuration file: [`tokovoip/config.lua`](https://github.com/Plactrix/TokoVoIP_v2/blob/master/tokovoip/config.lua)
 
    Update the following values:
 

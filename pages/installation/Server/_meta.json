@@ -3,6 +3,6 @@
   "overview": "Overview",
   "integrating": "Integrating into other Resources",
   "ws": "Step 1: ws-server",
-  "toko": "Step 2: tokovoip_script",
+  "toko": "Step 2: tokovoip script",
   "master": "(optional) master_server"
 }
