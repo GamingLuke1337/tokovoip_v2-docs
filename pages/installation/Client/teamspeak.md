@@ -8,6 +8,4 @@ The TeamSpeak 3 Plugin will connect and move you if you are In-Game. If you are 
 
 The TeamSpeak 3 Plugin will try to connect automatically if you join a TeamSpeak channel containing 'TokoVoIP' in it's name
 
-# Troubleshooting
-
 If you are not automatically connected, you can use the buttons in `Plugins -> TokoVoip` to manually connect/disconnect the TeamSpeak 3 Plugin  
