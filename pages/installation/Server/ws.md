@@ -8,20 +8,20 @@ The `ws-server` can be run in three different ways, depending on your setup requ
 
 The `tokovoip` resource includes an integrated `ws_server` that can be used without any additional setup. This is the simplest option and is recommended for most users.
 
-## Option 2: Run as a FiveM Resource
+## **[BROKEN - DONT USE]** Option 2: Run as a FiveM Resource
 
 The `ws-server` can be hosted directly within your existing FiveM server or on a separate FiveM server. Both approaches are supported.
 
 1. **Download the server**
-   Download the latest release of `ws-server` from the [GitHub Releases page](https://github.com/Plactrix/TokoVoIP_v2/releases/latest).
+   Download the latest release of `ws-server-fivem` from the [GitHub Releases page](https://github.com/Plactrix/TokoVoIP_v2/releases/latest).
 
 2. **Extract the files**
    Place the extracted `ws-server` folder into the `resources` directory of your FiveM server.
 
 3. **Configure the server**
    Open the configuration file: [`ws_server/config.js`](https://github.com/Plactrix/TokoVoIP_v2/blob/master/ws_server/config.js)
-   - Set the `TSServer` value to the **IPv4 address** of your TeamSpeak server.
-   - Set the `enableintegratews` to false. that deactivates the integrated `ws_server`
+   - Set the `TSServer` value to the **IP address** of your TeamSpeak server.
+   - Set `enableintegratews` to false. that deactivates the integrated `ws_server`
 
 4. **Start the server**
    Start the `ws_server` from your FiveM server console using the appropriate `start` command.
@@ -42,8 +42,8 @@ The `ws-server` can also be run as an independent Node.js application. This is u
 2. **Configure the server**
    Open the configuration file: [`ws_server/config.js`](https://github.com/Plactrix/TokoVoIP_v2/blob/master/ws_server/config.js)
 
-   - Set the `TSServer` value to the **IPv4 address** of your TeamSpeak server.
-   - Set the `enableintegratews` to false. that deactivates the integrated `ws_server`
+   - Set the `TSServer` value to the **IP address** of your TeamSpeak server.
+   - Set `enableintegratews` to false. that deactivates the integrated `ws_server`
    - If hosting on a separate machine, ensure the `ws-server` is accessible by the FiveM server.
 
 3. **Install dependencies and start the server**
@@ -52,7 +52,7 @@ The `ws-server` can also be run as an independent Node.js application. This is u
 
    ```bash
    npm install
-   node index.js
+   node index.mjs
    ```
 
 4. **(Optional) Run in the background**
