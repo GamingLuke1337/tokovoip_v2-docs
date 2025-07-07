@@ -9,6 +9,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Changes made by:
 - [PinguinPocalypse](https://github.com/GamingLuke1337)
 
+## Note for Contributors:
+
+TokoVoIP_v2, my Fork and the original TokoVoIP_TS3 repository are going to be merged into one repository in the future.
+This means that all changes made to the TokoVoIP_v2 + my repository will be merged into the original TokoVoIP_TS3 repository.
+I plan on renaming the original TokoVoIP_TS3 repository to TokoVoIP.
+Every line of code that would need to be changed to itokoyamato repo is already implemented in my Fork and marked with the -- FUTURE end of line comment. 
 
 ---
 
@@ -21,7 +27,7 @@ Changes made by:
 
 #### Added
 - Included support for IPv6
-- New integration into the `tokovoip` resource (doesnt support IPv6 *yet*)
+- New integration into the `tokovoip` resource
 - Added the option to change the master server addresses
 ```
 
@@ -41,9 +47,7 @@ Changes made by:
 
 ```md
 #### Added
-- New `ws_server` integration
-
-#### Planned
+- New `ws_server` integration with upgraded dependencies
 - Chore: Adding support for IPv6
 
 #### Changed
