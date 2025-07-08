@@ -1,8 +1,13 @@
 # Introduction to TokoVoIP
 
-The current [TokoVoIP V2](https://github.com/Plactrix/TokoVoIP_v2) is a continuation by [Plactrix](https://github.com/Plactrix) of the original [TokoVoIP project by Itokoyamato](https://github.com/Itokoyamato/TokoVOIP_TS3).
+TokoVoIP is a FiveM voice plugin that leverages TeamSpeak to provide high-quality, realistic proximity-based voice communication.
 
-TokoVoIP is a FiveM voice plugin that leverages TeamSpeak to provide high-quality, realistic proximity-based voice communication. [Plactrix](https://github.com/Plactrix) and [PinguinPocalypse](https://github.com/GamingLuke1337)decided to maintain and improve the original project.
+Current Maintainers:
+
+- [Itokoyamato](https://github.com/Itokoyamato)
+- [Plactrix](https://github.com/Plactrix)
+- [PinguinPocalypse](https://github.com/GamingLuke1337)
+
 
 ---
 
@@ -21,10 +26,8 @@ TokoVoIP is a FiveM voice plugin that leverages TeamSpeak to provide high-qualit
 
 ## To-Do List
 
-* [ ] Config option to reposition the `[TokoVoIP]` watermark (top-left, bottom-right, etc.)
 * [ ] Create a standalone app for radio frequency control (useful for dispatch)
 * [ ] Rebuild the TS3 plugin with modern modules
-* [ ] Rewrite `ws_server` using up-to-date dependencies
 * [ ] Add command to mute specific players via ACE permissions
 * [ ] Add export to enable/disable player voice (e.g., while dead)
 * [ ] Support fractional radio channels (e.g., `1.25`)
@@ -34,48 +37,25 @@ TokoVoIP is a FiveM voice plugin that leverages TeamSpeak to provide high-qualit
 
 ---
 
-## Known Issues
-
-* `ws_server` contains outdated dependencies and may not install properly. A full rewrite is planned for improved stability and performance.
-
----
-
 ## Support
 
 For help with installation, bugs, or configuration, you can:
 
-* Open an [Issue on GitHub](https://github.com/Plactrix/TokoVoIP_v2/issues)
-* Join the community Discord: [discord.gg/DEQ95eVmQ3](https://discord.gg/DEQ95eVmQ3)
+* [Open an Issue on GitHub](https://github.com/Itokoyamato/TokoVoIP_TS3/issues)
+* [Join the community Discord](https://discord.gg/RwhfGaX6aB)
 
 ---
 
 ## Support the Original Creator
-
-TokoVoIP was originally developed by [Itokoyamato](https://github.com/Itokoyamato/TokoVOIP_TS3).
-If you find the plugin useful, consider supporting them:
 
 [![Patreon](https://img.shields.io/badge/Become%20a-patron-orange)](https://www.patreon.com/Itokoyamato)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H2UXEZBF5KQBL)
 
 ---
 
-### Common Issues
-
----
-
-## Terms & Conditions (from Itokoyamato)
-
-* A visible **TokoVOIP watermark** must be shown in-game
-  (You may move or redesign it, but it must remain visible.)
-
-* Refer to the [LICENSE](https://github.com/Itokoyamato/TokoVOIP_TS3/blob/master/LICENSE.md) for full terms.
-
----
-
 ## Credits & Dependencies
 
-* [Itokoyamato (Original Creator)](https://github.com/Itokoyamato/TokoVOIP_TS3)
-* [RadioFX](https://github.com/thorwe/teamspeak-plugin-radiofx) by Thorwe
+* [RadioFX](https://github.com/Plactrix/teamspeak-plugin-radiofx-ts26) by Plactrix
 * [Simple-WebSocket-Server](https://gitlab.com/eidheim/Simple-WebSocket-Server) by eidheim
 * [JSON for Modern C++](https://github.com/nlohmann/json) by nlohmann
 * [cpp-httplib](https://github.com/yhirose/cpp-httplib) by yhirose

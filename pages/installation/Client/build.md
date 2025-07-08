@@ -57,43 +57,6 @@ Before building, make sure you have the following installed:
 
 ---
 
-## 1. Clone the Repository & Initialize Submodules
-
-```bash
-git clone https://github.com/Plactrix/TokoVoIP_v2.git
-cd TokoVoIP_v2
-git submodule update --init --recursive
-```
-
----
-
-## 2. Generate the Visual Studio Solution
-
-Open a terminal (PowerShell or CMD) and navigate to the `ts3_plugin` directory:
-
-### For 32-bit Build:
-
-```bash
-mkdir build32
-cd build32
-cmake -G "Visual Studio 17 2022" -A Win32 -DCMAKE_PREFIX_PATH="C:/Qt/5.12.7/msvc2019" ..
-cd ..
-```
-
-### For 64-bit Build:
-
-```bash
-mkdir build64
-cd build64
-cmake -A x64 -G "Visual Studio 17 2022" -A x64 -DCMAKE_PREFIX_PATH="C:/Qt/5.12.7/msvc2019_64" ..
-```
-
-> Replace the `C:/Qt/...` paths with your actual Qt installation paths if different.
-
----
-
-##  3. Build the Plugin in Visual Studio 2022
-
 1. Launch **Visual Studio 2022**.
 
 2. Go to **File → Open → Project/Solution**, then open:
@@ -110,7 +73,7 @@ cmake -A x64 -G "Visual Studio 17 2022" -A x64 -DCMAKE_PREFIX_PATH="C:/Qt/5.12.7
 
 ---
 
-## 4. Locate the Output DLL
+## Locate the Output DLL
 
 After building, the plugin DLL will be located in:
 

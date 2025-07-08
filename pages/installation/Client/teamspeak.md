@@ -1,6 +1,6 @@
 # Setting up the TeamSpeak 3 plugin
 
-* Download and Install the newest .ts3_plugin from the [Releases](https://github.com/Plactrix/TokoVoIP_v2/releases/latest) page
+* Download and Install the newest .ts3_plugin from the [Releases](https://github.com/Itokoyamato/TokoVoIP_TS3/releases/latest) page
 * Connect to the FiveM server
 * Launch TeamSpeak 3 and connect to the server
 
